@@ -16,7 +16,7 @@ rosrun autolabor_simulation_base simulation_base_node
 # open a new terminal
 cd MasterRosIn7Days/catkin_ws
 source devel/setup.bash
-rosrun autolabor_simulation_base autolabor_teleop.py
+rosrun autolabor_simulation_base autolabor_teleop.py /autolabor_teleop/cmd_vel:=/cmd_vel
 # open another new terminal
 cd MasterRosIn7Days/catkin_ws
 source devel/setup.bash
