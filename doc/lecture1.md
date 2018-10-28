@@ -20,7 +20,7 @@ rosrun autolabor_simulation_base autolabor_teleop.py /autolabor_teleop/cmd_vel:=
 # open another new terminal
 cd MasterRosIn7Days/catkin_ws
 source devel/setup.bash
-roslaunch autolabor_simulation_base display_autolabor_mini.launch
+roslaunch simulation_launch minimal.launch
 ```
 
 之后我们可以看到弹出的rviz窗口和三个终端，打开autolabor_teleop.py所在的终端，按照屏幕输出的指示长按ijkl等键
