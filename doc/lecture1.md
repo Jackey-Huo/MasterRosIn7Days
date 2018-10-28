@@ -9,6 +9,9 @@ TODO：详细攻略和tuna支持
 ## 第一节课编程实践代码运行方式
 
 ```bash
+# start roscore at the first of the project
+roscore
+# open a new terminal
 cd MasterRosIn7Days/catkin_ws
 catkin_make
 source devel/setup.bash
